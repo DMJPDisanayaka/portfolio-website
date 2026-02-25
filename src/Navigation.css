@@ -1,0 +1,147 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(15, 15, 30, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(99, 102, 241, 0.15);
+  padding: 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  background: linear-gradient(120deg, #6366f1, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  white-space: nowrap;
+  border: none;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-brand:hover {
+  transform: scale(1.02);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: #a8adc7;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 0.5rem 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-link:hover {
+  color: #f0f2f5;
+}
+
+.nav-link.active {
+  color: #6366f1;
+  border-bottom: 2px solid #6366f1;
+}
+
+.nav-cta-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-social {
+  color: #a8adc7;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  border: 1.5px solid rgba(99, 102, 241, 0.3);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-social:hover {
+  background: #6366f1;
+  color: white;
+  border-color: #6366f1;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    gap: 1rem;
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  .nav-cta-wrapper {
+    gap: 0.7rem;
+  }
+
+  .nav-social {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-menu {
+    gap: 0.8rem;
+  }
+
+  .nav-link {
+    padding: 0.3rem 0;
+  }
+
+  .nav-cta-wrapper {
+    gap: 0.5rem;
+  }
+
+  .nav-social {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
