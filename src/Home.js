@@ -53,7 +53,7 @@ function Home() {
                 <span>Get in Touch</span>
               </button>
               <a
-                href="/cv/my_cv.pdf"
+                href={`${process.env.PUBLIC_URL}/cv/my_cv.pdf`}
                 className="btn btn-outline"
                 title="Open CV"
                 target="_blank"

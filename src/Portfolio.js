@@ -91,7 +91,7 @@ function Portfolio() {
       </main>
 
       <footer>
-        <p>© {new Date().getFullYear()} Janith Disanayaka. Crafted with purpose.</p>
+        <p>© 2025 Janith Disanayaka. Crafted with purpose.</p>
       </footer>
     </div>
   );
