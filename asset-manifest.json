@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DMJPDisanayaka/portfolio-website.git/static/css/main.30a35c86.css",
+    "main.js": "/DMJPDisanayaka/portfolio-website.git/static/js/main.9ecb91bf.js",
+    "static/js/453.a7d99afe.chunk.js": "/DMJPDisanayaka/portfolio-website.git/static/js/453.a7d99afe.chunk.js",
+    "index.html": "/DMJPDisanayaka/portfolio-website.git/index.html",
+    "main.30a35c86.css.map": "/DMJPDisanayaka/portfolio-website.git/static/css/main.30a35c86.css.map",
+    "main.9ecb91bf.js.map": "/DMJPDisanayaka/portfolio-website.git/static/js/main.9ecb91bf.js.map",
+    "453.a7d99afe.chunk.js.map": "/DMJPDisanayaka/portfolio-website.git/static/js/453.a7d99afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a35c86.css",
+    "static/js/main.9ecb91bf.js"
+  ]
+}
