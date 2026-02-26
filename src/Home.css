@@ -157,13 +157,13 @@
 
 .hero-subtitle {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #ffffff;
   margin: 0 0 0.5rem 0;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  animation: slideDown 0.8s ease-out 0.15s both, bouncePopIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s both;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.5px;
+  text-transform: none;
+  animation: simpleFadeUp 0.55s ease-out both;
+  text-shadow: none;
 }
 
 .gradient-text-wrapper {
@@ -186,7 +186,18 @@
   flex-wrap: nowrap;
   margin: 0.5rem 0 1.5rem 0;
   white-space: nowrap;
-  animation: nameReveal 3.5s ease-out 0.5s both;
+  animation: simpleFadeUp 0.65s ease-out 0.12s both;
+}
+
+@keyframes simpleFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes nameReveal {
@@ -202,34 +213,13 @@
 
 .letter {
   display: inline-block;
-  background: linear-gradient(135deg, #a855f7, #3b82f6, #06b6d4, #14b8a6, #ec4899, #a855f7);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: letterPulse 5s ease-in-out infinite, hueShift 6s linear infinite;
+  color: #f0f2f5;
+  background: none;
+  -webkit-text-fill-color: initial;
+  animation: none;
   font-weight: 900;
   font-size: clamp(1.8rem, 5.5vw, 3.5rem);
 }
-
-.letter:nth-child(1) { animation: letterPulse 5s ease-in-out infinite 0s, hueShift 6s linear infinite; }
-.letter:nth-child(2) { animation: letterPulse 5s ease-in-out infinite 0.15s, hueShift 6s linear infinite; }
-.letter:nth-child(3) { animation: letterPulse 5s ease-in-out infinite 0.3s, hueShift 6s linear infinite; }
-.letter:nth-child(4) { animation: letterPulse 5s ease-in-out infinite 0.45s, hueShift 6s linear infinite; }
-.letter:nth-child(5) { animation: letterPulse 5s ease-in-out infinite 0.6s, hueShift 6s linear infinite; }
-.letter:nth-child(6) { animation: letterPulse 5s ease-in-out infinite 0.75s, hueShift 6s linear infinite; }
-.letter:nth-child(7) { animation: letterPulse 5s ease-in-out infinite 0.9s, hueShift 6s linear infinite; }
-.letter:nth-child(8) { animation: letterPulse 5s ease-in-out infinite 1.05s, hueShift 6s linear infinite; }
-.letter:nth-child(9) { animation: letterPulse 5s ease-in-out infinite 1.2s, hueShift 6s linear infinite; }
-.letter:nth-child(10) { animation: letterPulse 5s ease-in-out infinite 1.35s, hueShift 6s linear infinite; }
-.letter:nth-child(11) { animation: letterPulse 5s ease-in-out infinite 1.5s, hueShift 6s linear infinite; }
-.letter:nth-child(12) { animation: letterPulse 5s ease-in-out infinite 1.65s, hueShift 6s linear infinite; }
-.letter:nth-child(13) { animation: letterPulse 5s ease-in-out infinite 1.8s, hueShift 6s linear infinite; }
-.letter:nth-child(14) { animation: letterPulse 5s ease-in-out infinite 1.95s, hueShift 6s linear infinite; }
-.letter:nth-child(15) { animation: letterPulse 5s ease-in-out infinite 2.1s, hueShift 6s linear infinite; }
-.letter:nth-child(16) { animation: letterPulse 5s ease-in-out infinite 2.25s, hueShift 6s linear infinite; }
-.letter:nth-child(17) { animation: letterPulse 5s ease-in-out infinite 2.4s, hueShift 6s linear infinite; }
-.letter:nth-child(18) { animation: letterPulse 5s ease-in-out infinite 2.55s, hueShift 6s linear infinite; }
 
 @keyframes hueShift {
   0% { background-position: 0% 50%; }
