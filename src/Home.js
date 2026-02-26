@@ -41,7 +41,7 @@ function Home() {
 
             {/* Description */}
             <p className="hero-description">
-              I am an undergraduate student pursuing a Bachelor of Information and Communication Technology (BICT Honours) with a strong passion for building modern, user-focused digital solutions. I am particularly interested in front-end web development and the MERN stack, focusing on creating responsive, visually appealing, and user-friendly web applications.
+              I design and build modern web applications that are fast, responsive, and user-friendly. My main focus is the MERN stack, and I enjoy turning real ideas into clean digital products with strong UI/UX, maintainable code, and practical business value.
             </p>
 
             {/* CTA Buttons */}

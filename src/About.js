@@ -12,28 +12,28 @@ function About() {
           <div className="about-text">
             <h2>Who I Am</h2>
             <p>
-              I am a BICT (Honours) undergraduate at the University of Jaffna – Vavuniya Campus, with a strong passion for building modern, user-focused digital solutions. Throughout my academic journey, I have developed a solid foundation in information and communication technology, along with practical experience in full-stack web development.
+              I am a BICT (Honours) undergraduate at the University of Jaffna – Vavuniya Campus, passionate about building practical software solutions that solve real-world problems. I enjoy learning new technologies and applying them to create products that are both useful and visually polished.
             </p>
             <p>
-              I primarily work with the MERN stack (MongoDB, Express.js, React.js, and Node.js) and enjoy creating responsive, interactive front-end interfaces as well as reliable and secure back-end systems. I am particularly interested in transforming ideas into scalable web applications that deliver real value through clean design, efficient functionality, and good user experience.
+              My core stack is MERN (MongoDB, Express.js, React.js, Node.js), and I am especially interested in full-stack product development. I focus on writing clean code, building responsive interfaces, and creating robust backend APIs that support scalable applications.
             </p>
             <p>
-              In addition to development, I am continuously improving my knowledge in UI/UX design, Quality Assurance, and Networking, which helps me build well-rounded and maintainable software solutions. I am highly motivated, eager to learn new technologies, and committed to growing as a skilled software engineer while contributing positively to real-world projects.
+              In addition to coding, I continuously improve my skills in UI/UX, software quality, and teamwork practices. I am committed to growing as a professional software engineer and contributing to impactful projects through discipline, creativity, and consistent learning.
             </p>
           </div>
 
           <div className="about-highlights">
             <div className="highlight-card">
               <h3>🎯 My Focus</h3>
-              <p>Building modern, scalable web applications with attention to user experience and code quality.</p>
+              <p>Building secure and scalable full-stack applications with excellent user experience.</p>
             </div>
             <div className="highlight-card">
               <h3>💡 My Approach</h3>
-              <p>Combining technical expertise with creative thinking to deliver solutions that make a real difference.</p>
+              <p>Combining structured problem-solving with modern engineering practices for reliable results.</p>
             </div>
             <div className="highlight-card">
               <h3>🚀 My Vision</h3>
-              <p>To create digital products that are not just functional, but beautiful and meaningful to their users.</p>
+              <p>To grow into a product-minded engineer who builds meaningful solutions for global users.</p>
             </div>
           </div>
 

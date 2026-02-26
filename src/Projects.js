@@ -5,7 +5,7 @@ function Projects() {
     {
       title: 'GPA Calculator',
       description:
-        'A simple and user-friendly GPA calculator built with HTML, CSS, and JavaScript to help students quickly compute academic performance.',
+        'A clean and intuitive GPA calculation tool that helps students quickly compute semester and cumulative GPA with instant results.',
       tech: 'HTML • CSS • JavaScript',
       link: 'https://github.com/DMJPDisanayaka/Gpa-Calculetor.git',
       impact: 'User-Friendly Utility',
@@ -13,18 +13,26 @@ function Projects() {
     {
       title: 'University Event Management System',
       description:
-        'A MERN stack platform featuring event creation, participant registration, real-time notifications, and an admin dashboard for full event control.',
-      tech: 'MERN Stack',
+        'A full MERN platform for managing university events with organizer workflows, participant registration, role-based access, and admin reporting.',
+      tech: 'MERN Stack • Role-Based Access',
       link: 'https://github.com/DMJPDisanayaka/event-management-system.git',
       impact: 'Full-Featured Platform',
     },
     {
       title: 'Kidney Patient Portal',
       description:
-        'A MERN stack healthcare platform connecting kidney patients with compatible donors using blood type matching and streamlined patient workflows.',
-      tech: 'MERN Stack • Healthcare',
+        'A healthcare-focused MERN platform that connects kidney patients with suitable donors using profile-based matching and guided request workflows.',
+      tech: 'MERN Stack • Healthcare System',
       link: 'https://github.com/DMJPDisanayaka/Kidney-Donation-Platform.git',
       impact: 'Social Impact Project',
+    },
+    {
+      title: 'Personal Portfolio Website',
+      description:
+        'A responsive personal portfolio website to present my profile, skills, and projects with smooth one-page navigation and modern UI.',
+      tech: 'React • CSS • GitHub Pages',
+      link: 'https://github.com/DMJPDisanayaka/portfolio-website',
+      impact: 'Professional Branding',
     },
   ];
 
